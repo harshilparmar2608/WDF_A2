@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Hub - Login</title>
+</head>
+<body>
+
+  <header>
+    <h1>Student Hub</h1>
+    <p>Welcome! Please enter your details to access the portal.</p>
+  </header>
+
+  <hr>
+
+  <main>
+    <h2>Sign In</h2>
+
+    <fieldset>
+      <legend>Student Login</legend>
+      <form action="index.html" method="get">
+        
+        <p>
+          <label for="role">Account Type:</label><br>
+          <select id="role" name="role">
+            <option value="student">Student</option>
+            <option value="faculty">Faculty</option>
+          </select>
+        </p>
+
+        <p>
+          <label for="username">Student ID / Email:</label><br>
+          <input type="text" id="username" name="username" placeholder="e.g. 25DCE001" required>
+        </p>
+
+        <p>
+          <label for="password">Password:</label><br>
+          <input type="password" id="password" name="password" required>
+        </p>
+
+        <p>
+          <button type="submit">Sign In to Portal</button>
+        </p>
+
+      </form>
+    </fieldset>
+
+  </main>
+
+  <hr>
+
+  <footer>
+    <p>&copy; 2026 Student Hub</p>
+  </footer>
+
+</body>
+</html>
