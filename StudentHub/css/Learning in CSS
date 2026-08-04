@@ -1,0 +1,12 @@
+Tag use in StudentHub
+
+font-size:To set the size of the text.
+font-weight: change thickness
+text-align: to set alignment
+text-decoration: add or remove underline.
+color: to change text colour 
+
+#id: Targets specific element with a unique id.
+.class : Targets multiple HTML elements sharing the same class.
+:hover: Changes aave jyare mouse ne te element par hover kare.
+cursor: pointer : Mouse pointer ne clickable icon banava jyare button or link par hove thay tyare.
